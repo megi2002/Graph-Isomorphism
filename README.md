@@ -20,7 +20,7 @@ It also solves the Graph Automorphism Problem by computing the number of automor
 
 ## Usage
 
-A folder containing graph files with the '.grl' extension should be added to the repository.
+A folder containing graph files with the '.grl' extension should be added to the repository (test_files).
 The files array in the main() function should be changed to contain the correct names of the graph files
 
 ```python
@@ -37,7 +37,7 @@ the main() function should be called.
 
 ```python
 if __name__ == "__main__":
-    main("folder_name/")
+    main("test_files/")
 ```
 
 # Fast Color Refinement Algorithm
