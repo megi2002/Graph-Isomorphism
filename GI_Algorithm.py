@@ -271,10 +271,8 @@ def countIsomorphism(G, H, D, I):
 
 
 def main(graph_file):
-    files = ["repair1GI.grl", "repair2GI.grl", "repair3GI.grl",
-             "repair4GI.grl", "repair5Aut.grl", "repair6GIAut.grl", "repair7GIAut.grl"]
-    # files = ["file1GI.grl", "file2GI.grl", "file3GI.grl",
-    #          "file4GI.grl", "file5Aut.grl", "file6GIAut.grl", "file7GIAut.grl"]
+    files = ["file1GI.grl", "file2GI.grl", "file3GI.grl",
+             "file4GI.grl", "file5Aut.grl", "file6Aut.grl", "file7GIAut.grl"]
     for filename in files:
         with open(graph_file + filename, 'r') as f:
             graph_list, options = load_graph(f, read_list=True)
@@ -302,5 +300,5 @@ def main(graph_file):
 
 
 if __name__ == "__main__":
-    main("repair/")
+    main("test_files/")
 
